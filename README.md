@@ -1,5 +1,7 @@
-GettingAndCleaningData
+run_analysis.r read me
 ======================
+
+What is this script for?
 
 This script loads data from the working directory and finds data in the folder "UCI HAR Dataset"
 and tidies the set to deliver a data set with the average of each variable for each activity and each subject
