@@ -1,6 +1,6 @@
 # Code book
 
-### Disclaimer: The data set description is taken from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+Disclaimer: The data set description is taken from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 
 ## Data source:
 
@@ -13,22 +13,159 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+All measures are of the type Numeric
+
+tBodyAcc.meanX
+
+tBodyAcc.meanY
+
+tBodyAcc.meanZ
+
+tBodyAcc.stdX
+
+tBodyAcc.stdY
+
+tBodyAcc.stdZ
+
+tGravityAcc.meanX
+
+tGravityAcc.meanY
+
+tGravityAcc.meanZ
+
+tGravityAcc.stdX
+
+tGravityAcc.stdY
+
+tGravityAcc.stdZ
+
+tBodyAccJerk.meanX
+
+tBodyAccJerk.meanY
+
+tBodyAccJerk.meanZ
+
+tBodyAccJerk.stdX
+
+tBodyAccJerk.stdY
+
+tBodyAccJerk.stdZ
+
+tBodyGyro.meanX
+
+tBodyGyro.meanY
+
+tBodyGyro.meanZ
+
+tBodyGyro.stdX
+
+tBodyGyro.stdY
+
+tBodyGyro.stdZ
+
+tBodyGyroJerk.meanX
+
+tBodyGyroJerk.meanY
+
+tBodyGyroJerk.meanZ
+
+tBodyGyroJerk.stdX
+
+tBodyGyroJerk.stdY
+
+tBodyGyroJerk.stdZ
+
+tBodyAccMag.mean
+
+tBodyAccMag.std
+
+tGravityAccMag.mean
+
+tGravityAccMag.std
+
+tBodyAccJerkMag.mean
+
+tBodyAccJerkMag.std
+
+tBodyGyroMag.mean
+
+tBodyGyroMag.std
+
+tBodyGyroJerkMag.mean
+
+tBodyGyroJerkMag.std
+
+fBodyAcc.meanX
+
+fBodyAcc.meanY
+
+fBodyAcc.meanZ
+
+fBodyAcc.stdX
+
+fBodyAcc.stdY
+
+fBodyAcc.stdZ
+
+fBodyAccJerk.meanX
+
+fBodyAccJerk.meanY
+
+fBodyAccJerk.meanZ
+
+fBodyAccJerk.stdX
+
+fBodyAccJerk.stdY
+
+fBodyAccJerk.stdZ
+
+fBodyGyro.meanX
+
+fBodyGyro.meanY
+
+fBodyGyro.meanZ
+
+fBodyGyro.stdX
+
+fBodyGyro.stdY
+
+fBodyGyro.stdZ
+
+fBodyAccMag.mean
+
+fBodyAccMag.std
+
+fBodyBodyAccJerkMag.mean
+
+fBodyBodyAccJerkMag.std
+
+fBodyBodyGyroMag.mean
+
+fBodyBodyGyroMag.std
+
+fBodyBodyGyroJerkMag.mean
+
+fBodyBodyGyroJerkMag.std
+
+# Activities
+
+
+# Activities:
+
+1 WALKING
+
+2 WALKING_UPSTAIRS
+
+3 WALKING_DOWNSTAIRS
+
+4 SITTING
+
+5 STANDING
+
+6 LAYING
+
+# Total number of records / observations: 180 with 563 variables
+
+
 
 
