@@ -57,3 +57,6 @@ selectedFeaturesSet <- selectedFeaturesSet[,1:81]
 # Calculate the mean of the fullSet by subject (2) and activity (564)
 aggSet <- aggregate(fullSet[,3:563], by = fullSet[,c(2,564)], FUN=mean)
 
+
+## Task 6: Write data to text file for upload
+write.table(aggSet, file = 'GettingAndCleaningData.txt', row.names = FALSE)
