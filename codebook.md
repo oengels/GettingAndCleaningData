@@ -1,6 +1,6 @@
-### Codebook
+# Code book
 
-## Disclaimer: The data set description is taken from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+### Disclaimer: The data set description is taken from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 
 ## Data source:
 
