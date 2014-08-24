@@ -13,11 +13,12 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-## Cleanded result set
+## Cleaned result set
 
 
-### Total number of records / observations: 180 with 563 variables
+### Total number of records / observations: 180 with 563 variables > aggSet
 
+### Measures:
 
 All measures are of the type Numeric
 
@@ -154,7 +155,9 @@ fBodyBodyGyroJerkMag.mean
 fBodyBodyGyroJerkMag.std
 
 
-## Activities:
+### Dimension:
+
+### Activities:
 
 1 WALKING
 
