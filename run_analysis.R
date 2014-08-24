@@ -6,6 +6,7 @@ features <- read.table("UCI HAR Dataset/features.txt", sep = " ")
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt", sep = " ")
 
 ## Task 1: Merges the training and the test sets to create one data set.
+
 # Load the test set data
 test.subject <- read.table("UCI HAR Dataset/test/subject_test.txt", sep = " ")
 # This is the test set data
@@ -13,18 +14,17 @@ test.subject <- read.table("UCI HAR Dataset/test/subject_test.txt", sep = " ")
 test.x <- read.table("UCI HAR Dataset/test/X_test.txt", col.names = features[,2])
 # These are the lables of the test set
 test.y <- read.table("UCI HAR Dataset/test/y_test.txt", sep = " ")
+# Combining the tables to one set named test with cbind
+test <- cbind(test.subject,test.y,test.x)
+# Add column names
+colnames(test)[1:2] <- c("Subject","ActivityClass")
+
 
 # Load training set data
 training.subject <- read.table("UCI HAR Dataset/train/subject_train.txt", sep = " ")
 # Same approach for x in the traing set > V2 column names
 training.x <- read.table("UCI HAR Dataset/train/X_train.txt", col.names = features[,2])
 training.y <- read.table("UCI HAR Dataset/train/y_train.txt", sep = " ")
-
-# Combining the tables to one set named test with cbind
-test <- cbind(test.subject,test.y,test.x)
-# Add column names
-colnames(test)[1:2] <- c("Subject","ActivityClass")
-
 # Combining the tables to one set named training with cbind
 training <- cbind(training.subject, training.y, training.x)
 # Add column names
