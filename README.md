@@ -2,7 +2,7 @@ GettingAndCleaningData
 ======================
 
 This script loads data from the working directory and finds data in the folder "UCI HAR Dataset"
-and tidies the set to deliver data set with the average of each variable for each activity and each subject
+and tidies the set to deliver a data set with the average of each variable for each activity and each subject
 These are the steps the script performs:
 
 1. Loading a table of  masterdata of the accelerimeter and gyroscope into a set called features from features.txt
